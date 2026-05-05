@@ -50,3 +50,18 @@ button:hover {
   padding: 10px;
   border-radius: 8px;
 }
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+textarea {
+  grid-column: span 2;
+}
+
+button {
+  grid-column: span 2;
+}
